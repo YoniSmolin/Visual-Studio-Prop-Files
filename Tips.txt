@@ -1,0 +1,1 @@
+1. For networking on windows, you need to link to the following library: ws2_32.lib.

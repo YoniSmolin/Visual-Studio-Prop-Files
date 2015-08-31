@@ -3,3 +3,5 @@
     <PostBuildEvent>
       <Command>copy "$(OPENCV_X86)\bin\opencv_world300.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
+3. An example of setting an environment variable: (type in an administrator cmd window)
+	setx -m OPENCV_X86 D:\OpenCV\Build\x86\vc12
